@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.hero-image{
+    background-image:
+    url("hero1.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image .hero-text{
+    color: white;
+    text-align: center;
+}
+
+.hero-image .hero-text h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.hero-image .hero-text p{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 10px;
+}

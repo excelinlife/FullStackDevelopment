@@ -1,13 +1,63 @@
+<!DOCTYPE html>
 <html>
+    <head>
+        <style>
+            .redandyellow{
+                background-color: red;
+                color: yellow;
+                text-align: center;
+                font-size: larger;
+            }
+        </style>
+        <link rel="" href="a.csss">
+    </head>
     <body>
-    <h1>Its a heading</h1>
-    <p>this is a paragraph</p>
-    <h1>this is h1 heading</h1>
+    <h1 class="redandyellow">Its a heading</h1>
+    <h1 style="color: red;">this is h1 heading</h1>
+    <h1>this is another h1 heading</h1>
     <h2>this is h2 heading</h2>
-    <h3>Its a h3 heading</h3>
-    <p>this is a paragraph</p>
+    <h3 style="font-size: 100px; background-color: blue; color: red;" >Its a h3 heading</h3>
+    <p class="redandyellow">this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph. this is a paragraph.
+        this is a paragraph. this is a paragraph.this is a paragraph. this is a paragraph.this is a paragraph. this is a paragraph.this is a paragraph. this is a paragraph.this is a paragraph. this is a paragraph.this is a paragraph. this is a paragraph.
+        this is a paragraph. this is a paragraph.this is a paragraph. this is a paragraph.this is a paragraph. this is a paragraph.this is a paragraph. this is a paragraph.
+        this is a paragraph. this is a paragraph.
+    </p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h2>HTML form, please give your first name and last name...</h2>
+<form action="/actionpage.php">
+<label>First Name</label> <br>  
+<input type="text" id="fname" placeholder="first name please"><br>
+<label>Last Name</label>  <br>
+<input type="text" id="lname" placeholder="last name please"><br>
+<label>Email address</label>  <br>
+<input type="email"  placeholder="email id name please"><br>
+
+<input type="radio" id="html" name="gender" value="HTML">
+  <label for="male">male</label><br>
+  <input type="radio" id="css" name="gender" value="CSS">
+  <label for="female">female</label><br>
+  <input type="radio" id="css" name="gender" value="CSS">
+  <label for="css">others</label><br>
+
+<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> I have a bike</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> I have a car</label><br>
+</form>
+
+<input type="submit" value="SUBMIT">
+<p>if you submit, your details will be saved in our database....</p>
+    <hr>
+    <hr>
+    <p>this is another paragraph</p>
+    <video width = "300" height = "200" controls autoplay>
+        <source src="vid.mp4" type="video/mp4"/>
+    </video>
     <a href="https://www.harpersbazaar.com/culture/travel-dining/g7171/most-beautiful-places-in-the-world/">40 most-beautiful-places-in-the-world</a>
-    <img src="img-2.jpg" alt="nature" />
+    <img src="img-2.jpg" alt="nature" width="500" height="600" />
     
     </body>
 </html>
