@@ -7,13 +7,9 @@ function action(){
     var second =20;
     var result = first-second;
 
-    var a=false;
-    var b=true;
-document.write(a&&b);
-    document.write(first%second);
-    ocument.write(first==second);
-    ocument.write(first>second);
-    ocument.write(first<second);
-
+document.write('testing');
+    document.write(true && true);
+    document.write(first==second);
+    document.write(first>second);
+    document.write(first<second);
 }
-

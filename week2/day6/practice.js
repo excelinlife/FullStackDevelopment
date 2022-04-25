@@ -2,19 +2,20 @@
             alert('you have clicked on the button...');
             console.log('you have clicked');
             console.log('we are going to show hi on page');
-            var biryani='Vinay';
-            document.write(biryani +" ");
-            muttonKabab='Hashita';
+            var variable='Vinay';
+            document.write(variable +" ");
+            variable='Hashita';
             const constant =200;
             let newNumber = 300;
-            document.write(muttonKabab +" ");
+            document.write(variable +" ");
             variable='Ashish';
-            document.write(biryani +" ");
+            document.write(variable +" ");
             document.write(constant+ " ");
             document.write(newNumber);
             newNumber=500;
             document.write(newNumber +" ");
-            biryani='Pankaj'
-            biryani='Harshita';
-            document.write(biryani +" ");
+            variable='Pankaj'
+            newNumber='Harshita';
+            document.write(variable +" ");
         }
+
