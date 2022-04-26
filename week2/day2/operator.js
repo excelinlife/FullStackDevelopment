@@ -21,6 +21,16 @@ function action(){
         i++;
     }*/
 
+    /*i am showing increment operators use here
+    var i=10;
+    var j=i++;
+    //i=11, j=10
+
+    var i=10;
+    var j=++i;
+    //i=11, j=11
+    */
+
   /*  var i=arr.length-1;
     do{
         document.write(arr[i] +" ");
@@ -43,21 +53,22 @@ function action(){
    } else{
     document.write("your old days have arrived");
    }
-   */
-
+   
+*/
    //Break and contnue
 
- /*  for(var i=arr.length-1;i>=0;i--){
+  /* for(var i=arr.length-1;i>=0;i--){
        if(i==3)
        break;
     document.write(arr[i] +" ");
-}*/
+}
+*/
 
-/*for(var i=arr.length-1;i>=0;i--){
+for(var i=arr.length-1;i>=0;i--){
     if(i==3)
     continue;
  document.write(arr[i] +" ");
-}*/
+}
 
 //local: CM and global : PM
 }
