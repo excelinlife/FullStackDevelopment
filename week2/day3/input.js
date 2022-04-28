@@ -13,7 +13,6 @@ function action(){
    }
 }
 
-
 /*function table(){
     var num = prompt("give me the number");
     for(var i=1; i<=10; i++){
