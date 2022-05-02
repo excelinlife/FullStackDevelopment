@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Ramakrishna",
+        "age": 35,
+        "married": true,
+        "salary": 20000.00,
+        "bus": {
+            "busno": 1234,
+            "busarea": "Thirupati",
+            "departure": "thirupati",
+            "arrival": "hyderabad"
+        }
+    },
+    {
+        "name": "Sumanth",
+        "age": 35,
+        "married": true,
+        "salary": 20000.00,
+        "bus": {
+            "busno": 1234,
+            "busarea": "Thirupati",
+            "departure": "thirupati",
+            "arrival": "hyderabad"
+        }
+    }
+]

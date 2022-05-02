@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Callback demo</h1>
+    <p>this is a demo</p>
+    <p id="demo">I am writing for callback demo...</p>
+    <script>
+        function myDisplayer(test) {
+  document.getElementById("demo").innerHTML = test
+}
+
+function myCalculator(num1, num2, kabab) {
+  let sum = num1 + num2;
+  kabab(sum);
+}
+myCalculator(5, 50, myDisplayer);
+    </script>
+</body>
+</html>
