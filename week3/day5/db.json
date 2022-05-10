@@ -1,0 +1,43 @@
+{
+    "posts": [
+      {
+        "id": 1,
+        "title": "json-server",
+        "author": "typicode"
+      },
+      {
+        "title": "I am updating",
+        "author": "this is a demo of put api",
+        "id": 2
+      },
+      {
+        "id": 3,
+        "title": "json-server2",
+        "author": "typicode2"
+      },
+      {
+        "id": 5,
+        "title": "json-server2",
+        "author": "typicode2"
+      }
+    ],
+    "users": [
+      {
+        "name": "Vinay",
+        "email": "vinay@gmail.com",
+        "address": "hyd"
+      },
+      {
+        "name": "Vinay",
+        "email": "vinay@gmail.com",
+        "address": "hyd"
+      }
+    ],
+    "comments": [
+      {
+        "id": 1,
+        "body": "some comment",
+        "postId": 1
+      }
+    ]
+  }

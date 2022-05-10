@@ -17,8 +17,8 @@ b();
 
 function myCalculator(num1, num2) {
     var sum = num1 + num2;
-    callback(sum);
   }
   function callback(sum){
       document.write(sum);
   }
+

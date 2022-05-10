@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content=
+	"width=device-width, initial-scale=1.0">
+
+	<title>fetch</title>
+</head>
+
+<body>
+	<script>
+
+		let result = fetch("https://reqres.in/api/users?page=2");
+
+		result.then(res =>
+			res.json()).then(d => {
+				console.log(d)
+			})
+	</script>
+</body>
+
+</html>

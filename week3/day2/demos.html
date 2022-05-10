@@ -11,15 +11,24 @@
     <p>this is a demo</p>
     <p id="demo">I am writing for callback demo...</p>
     <script>
+        var value =100;
         function myDisplayer(test) {
   document.getElementById("demo").innerHTML = test
 }
 
-function myCalculator(num1, num2, kabab) {
-  let sum = num1 + num2;
-  kabab(sum);
+function myCalculator(num1, num2, callback) {
+  var sum = num1 + num2;
+  callback(sum);
+}
+
+function myCalculator2(num1, num2, callback) {
+  var sum2 = num1 + num2;
+  callback(sum);
 }
 myCalculator(5, 50, myDisplayer);
+var driver = {name:"Ramakrishna", age: 35, married: true, salary: 20000.00, 
+bus:{busno:1234, busarea:"Thirupati", departure: "thirupati", arrival:"hyderabad"}
+};
     </script>
 </body>
 </html>
