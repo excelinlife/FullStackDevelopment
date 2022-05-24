@@ -1,4 +1,4 @@
-package excel.in;
+package excel.in.week1.day2;
 
 public class Casting
 {
