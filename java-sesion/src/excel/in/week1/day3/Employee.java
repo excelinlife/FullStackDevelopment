@@ -9,6 +9,11 @@ public class Employee {
 
     }
 
+    public Employee(String name, Integer age) {
+        this.name = name;
+        this.age = age;
+    }
+
     public Employee(String name, Integer age, Boolean isPermanent) {
         this.name = name;
         this.age = age;
