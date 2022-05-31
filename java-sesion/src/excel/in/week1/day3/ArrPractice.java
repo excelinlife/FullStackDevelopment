@@ -9,8 +9,8 @@ public class ArrPractice {
             System.out.println(list[i]);
         }*/
 
-        for (String s:list){
-            System.out.println(s);
+        for (String a:list){
+            System.out.println(a);
         }
         int i=0;
         while (i<list.length){
